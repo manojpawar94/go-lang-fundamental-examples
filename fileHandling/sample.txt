@@ -1,0 +1,1 @@
+This sample text file, to test create and read file

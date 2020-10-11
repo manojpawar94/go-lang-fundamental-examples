@@ -2,19 +2,20 @@ package main
 
 import "fmt"
 
-type person struct {
+/*Person struct*/
+type Person struct {
 	firstName string
 	lastName  string
 }
 
 func example1(){
-	manoj := person{"Manoj", "Pawar"}
+	manoj := Person{"Manoj", "Pawar"}
 	fmt.Println(manoj)
 
-	raja := person{firstName: "Raja", lastName: "Sundervel"}
+	raja := Person{firstName: "Raja", lastName: "Sundervel"}
 	fmt.Println(raja)
 
-	var sai person
+	var sai Person
 	fmt.Println(sai)
 	fmt.Printf("%+v\n", sai)
 
